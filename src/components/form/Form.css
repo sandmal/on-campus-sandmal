@@ -1,0 +1,22 @@
+label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0.7em 0;
+}
+
+.form-container {
+  max-width: 100%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.error {
+  display: inline-block;
+  font-size: 0.6em;
+}

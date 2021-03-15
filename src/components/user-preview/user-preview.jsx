@@ -11,7 +11,7 @@ function UserPreview({ user }) {
     return (
         <div className="UserPreview">
             <div className="textContainer"></div>
-            <img className="svgIcon" alt="" src={img} />
+            <img className="svgIcon" alt={img} src={img} />
             <p className="text">{user.name}</p>
             <div className={['dot', isBusy].join(' ')}></div>
         </div>
